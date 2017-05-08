@@ -44,7 +44,7 @@ int main(){
             for(i=0;i<K;i++)
                 tot+=2*p[i].r*PI*p[i].h;
             tot+=maxr*maxr*PI;
-            printf("%.1f\n",tot);
+            printf("%.6f\n",tot);
         }
         return 0;
 }
